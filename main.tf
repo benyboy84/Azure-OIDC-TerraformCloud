@@ -8,7 +8,6 @@ resource "azuread_application" "tfc_application" {
 
 resource "azuread_service_principal" "tfc_service_principal" {
   application_id    = azuread_application.tfc_application.client_id
-  alternative_names = azuread_application.tfc_application.display_name
   description       = local.application_description
   owners            = [data.azurerm_client_config.current.object_id]
 }
