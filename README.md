@@ -1,8 +1,4 @@
 <<<<<<< HEAD
-# AWS_OIDC_TerraformCloud
-=======
-# Azure-OIDC-TerraformCloud
->>>>>>> c3f23170fedbe05830cd92e3f6da11ec2ff1d38c
 <!-- BEGIN_TF_DOCS -->
 # Azure OIDC Provider for Terraform Cloud
 
