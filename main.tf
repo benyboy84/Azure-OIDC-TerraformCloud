@@ -7,9 +7,9 @@ resource "azuread_application" "tfc_application" {
 # The following resource block is used to manage a service principal associated with an application within Azure Active Directory.
 
 resource "azuread_service_principal" "tfc_service_principal" {
-  application_id    = azuread_application.tfc_application.client_id
-  description       = local.application_description
-  owners            = [data.azurerm_client_config.current.object_id]
+  application_id = azuread_application.tfc_application.client_id
+  description    = local.application_description
+  owners         = [data.azurerm_client_config.current.object_id]
 }
 
 # The following resource block is used to manage a federated identity credential associated with an application within Azure Active Directory.
