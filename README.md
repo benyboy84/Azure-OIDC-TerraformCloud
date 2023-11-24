@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!-- BEGIN_TF_DOCS -->
 # Azure OIDC Provider for Terraform Cloud
 
