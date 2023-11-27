@@ -13,9 +13,9 @@ locals {
   tfc_organization_name = "ConseilsTI"
 
   # This local is used to define the project from which this role will be used.
-  tfc_project_name = "*"
+  tfc_project_name = "Azure Landing Zone"
 
   # This local is used to define the workspace from which this role will be used.
-  tfc_workspace_name = "*"
+  tfc_workspace_name = "Azure-Enterprise"
 
 }
